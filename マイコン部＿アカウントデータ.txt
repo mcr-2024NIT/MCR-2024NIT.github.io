@@ -1,0 +1,6 @@
+discode:
+	MCR-2024
+	pass:MRCdocom0
+gmail:
+	n.i.t.m.c.r2024@gmail.com
+	pass:MCRdocomo
