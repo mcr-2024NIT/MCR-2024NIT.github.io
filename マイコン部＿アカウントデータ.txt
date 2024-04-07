@@ -7,3 +7,6 @@ gmail:
 discode:
 	nit-mcr
 	pass:MCRdocom0
+pageclip:
+	MCR
+	pass:MCRdocomo
