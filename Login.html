@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ログイン</title>
+</head>
+<body>
+    <h1>ログインページ</h1>
+
+    <form action="Login.html" method="POST">
+        <label for="student_id">学籍番号:</label>
+        <input type="text" id="student_id" name="student_id" required><br><br>
+
+        <label for="password">パスワード:</label>
+        <div class="password-container">
+            <input type="password" id="password" name="password" required>
+            <label for="show_password" class="show-password-label">
+                <input type="checkbox" id="show_password" onclick="togglePasswordVisibility()"> 表示
+            </label>
+        </div><br><br>
+
+        <input type="submit" value="ログイン">
+    </form>
+
+    <p>アカウントをお持ちでない方は、<a href="Create account.html">こちら</a>から作成してください。</p>
+    <p>TOPは<a href="index.html">こちら</a></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

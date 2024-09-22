@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <title>NITマイクロコンピュータ部_ロボット班</title>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header id="header">
+        <div onclick="location.href='index.html'" style="cursor: pointer;">
+            <img src="img\MCR_icon.png" alt="Twitter" class="icon">
+            <h1 class="site-title">
+            </h1>
+        </div>
+            <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="P_han.html">プログラム班</a></li>
+                <li><a href="CG_han.html">CG班</a></li>
+                <li><a href="Robo_han.html">ロボット班</a></li>
+                <li>
+                    <a href="https://twitter.com/mcr_nit" target="_blank" rel="noopener noreferrer">
+                        <img src="img\tw.png" alt="Twitter" class="icon">
+                    </a>
+                </li>
+            </ul>
+    </header>
+
+    <nav aria-label="パンくずリスト">
+        <ul class="breadcrumbs">
+            <li><a href="index.html">TOP</a></li>
+            <li><a href="Robo_han.html">ロボット班</a></li>
+        </ul>
+    </nav>
+
+    <!--Main -->
+    <div id="main">
+        <picture>
+            <source media="(max-width: 600px)"/>
+            <img src="img\smartkey_2.jpg" alt=""/>
+        </picture>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="wrapper">
+
+        <h2 class="section-title team-border team-Robo" >ロボット班</h2>
+        <ul class="event-list">
+            <li>ロボット班ではマイコンを使い様々な課題へ挑戦しています。</li>
+            <li>3月にはロボットランサー競技へ出場します。</li>
+        </ul>
+        <br>
+
+
+        <!-- スマートキー製作 -->
+        <div class="oo-midasi team-Robo" >活動紹介：スマートキー製作</div>
+        <div class="content">
+            部室の鍵をスマートキー化しました<br>
+            今回の製作はP班2年生とロボ班1年生の共同製作で行いました<br>
+        </div>
+
+        <div class="image-description">
+            <img src="img\smartkey_2.jpg" class="image-content">
+            <div class="description content">
+                Raspberry Piを用いてpythonでコードを書きました。<br>
+                Discordとの通信とサーボモーター・スイッチの制御をしています。
+            </div>
+        </div>
+        
+        <div class="image-description">
+            <img src="img\smartkey_3.jpg" class="image-content">
+            <div class="description content">
+                鍵を回すギア部分は3Dプリンターで作成しました。<br>
+                鍵は手動でも操作できるように使用しないときはギアが外れる仕様になっています。<br>
+                1つ目のサーボモータはギアの取り外し、2つ目で鍵を回転させます。<br>
+                マイクロスイッチを使って現在の開閉状態も取得できます。
+
+            </div>
+        </div>
+        
+        <div class="image-description">
+            <img src="img\smartkey_4.jpg" class="image-content">
+            <div class="description content">
+                電源を繋ぐと自動でプログラムが起動します。<br>
+            </div>
+        </div>
+
+        <div class="image-description">
+            <img src="img\smartkey_1.png" class="image-content">
+            <div class="description content">
+                Discordでチャットするとbotが反応し、部室の鍵を開きます。<br>
+                現在鍵が開いているかの確認もできます。
+            </div>
+        </div>
+
+        <!-- スマートキー製作 -->
+        <div class="oo-midasi team-Robo" >活動紹介：ロボットランサー競技</div>
+        <div class="content">
+            コロナウイルスにより長らく中止となっていた大会が2025年より再び開催される事となり、ロボット班も出場を目指しています。<br>
+            しかし、中止の期間が長かったため部内には経験者がおらず、1から学ぶこととなります。<br>
+            現在はキットを使ったロボット製作や、ラジコン製作から始め、競技に向けて技術や知識を身に着けています。
+        </div>
+    </section>
+
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="index.html">
+                <img src="img\MCR_icon.png" alt="ロゴ" class="footer-logo">
+            </a>
+            <div class="footer-text">© 2024 マイクロコンピュータ研究部</div>
+        </div>
+        <div class="footer-right">
+            <div  class="footer-text">
+                <p><a href="P_han.html">プログラム班</a></p>
+                <p><a href="CG_han.html">CG班</a></p>
+                <p><a href="Robo_han.html">ロボット班</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

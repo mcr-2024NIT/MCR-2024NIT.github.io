@@ -1,0 +1,426 @@
+html{
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.web-link {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.img-border{
+    margin: 10px auto;
+    border: 3px solid #4f4f4f;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+.wrapper {
+    /*960px?*/
+    max-width: 1240px;
+    margin: 0px auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+.site-title {
+    line-height: 1px;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.site-title a {
+    color: #24292e;
+    display: block;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+/* header */
+header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 3%;
+    height: 110px;
+    background-color: rgb(28, 140, 205);
+}
+
+header ul {
+    display: flex;
+    padding: 0px 0px;
+    align-items: center;
+    float: right;
+}
+
+header ul li {
+    font-size: 1rem;
+    margin: 0px 15px;
+    transition: all 0.3s;
+}
+
+header ul li a {
+    transition: all 0.5;
+    color: rgb(229, 230, 228);
+}
+
+header ul li a:visited{
+    color: rgb(229, 230, 228);
+}
+
+header ul li a:hover {
+    opacity: 0.5;
+}
+
+header li img {
+    width: 60px;
+}
+
+header a img {
+    width: 60px;
+    height: auto;
+}
+
+header img {
+    height: 110px;
+}
+
+header div {
+    display: flex;
+}
+
+header div h1 {
+    padding-top: 50px;
+    padding-left: 3%;
+}
+
+/* パンくずリスト */
+.breadcrumbs {
+    background-color: rgb(229, 230, 228);
+    padding-left: 3%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs li::after {
+    content: '>';
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #666666;
+}
+.breadcrumbs li:last-child::after {
+    content: none;
+}
+.breadcrumbs a{
+    color: #000;
+}
+
+/* main */
+#main  {
+    margin-bottom: 30px;
+}
+
+#main img {
+    width: 100%;
+    max-height: 1920px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* about */
+.event-list li {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* 丸囲い */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top:1px solid #b7b7b7;
+}
+
+.circle-item:last-child {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.circle-title {
+    border: 3px solid #000;
+    border-radius: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    margin-right: 50px;
+    flex: 0 0 auto;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 200px; /* 固定幅を設定 */
+}
+
+.circle-content {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* team */
+
+.team-item {
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.team-title{
+    font-size: 1.3rem;
+    font-weight:bolder;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-border{
+    text-decoration:underline ;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+.team-title a:link, a:visited {
+    color: black; /* リンクの色を黒に設定 */
+    text-decoration: none; /* アンダーラインを無くす */
+}
+
+.team-title a:hover {
+    color: blue; /* マウスオーバー時の色を青に設定 */
+    text-decoration: underline; /* 下線を表示 */
+    text-decoration-thickness: 3px; /* 下線を太くする */
+    text-decoration-color: #000;
+}
+
+.team-content {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center
+}
+
+
+
+/* 班の活動内容紹介など */
+.oo-midasi {
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-bottom: 3px dotted ;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.ko-midasi {
+    font-size: 1.15rem;
+    font-weight: bold;
+    border-left: 4px solid;
+    padding: 2px 0px 2px 10px;
+    margin: 15px 0;
+}
+
+
+.content {
+    font-size: 1.05rem;
+    line-height:2.1;
+}
+
+.image-content {
+    width: auto;
+    height: auto;
+    max-width: 33%;
+    max-height: 50vh;
+    border: 2px solid #000;
+}
+
+.image-description {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+
+    padding-left: 20px ;
+}
+
+
+
+
+/* フッターのスタイル */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363636;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 左側の画像のスタイル */
+.footer-left {
+    flex: 0 0 auto;
+}
+
+.footer-logo {
+    width: auto; 
+    height: 100px;
+}
+
+/* 右側の文字列のスタイル */
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-text {
+    color: #b7b7b7; /* 文字色を白に設定 */
+    text-decoration: none; /* 下線を削除 */
+}
+
+.footer-text p a{
+    color: #b7b7b7;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sp */ 
+@media screen and (max-width: 650px) {
+
+    html{
+        font-size: 75%;
+    }
+
+    .site-title {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    li {
+        list-style: none;
+        font-size: 1.05rem;
+    }
+
+    /* header */
+    header { 
+        height: 150%;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header li {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+
+    header li img.icon {
+        width: 40px;
+    }
+
+    header h1 {
+        padding-top: 0px;
+    }
+
+    header div img {
+        padding-top: 3%;
+    }
+
+    /* body */
+
+    .circle-title {
+        width: 125px; /* 固定幅を設定 */
+    }
+
+    .content {
+        font-size: 0.9rem;
+        line-height:2.1;
+    }
+}
+
+
+
+
+/* 最後に適用させたいやつ */
+.team-P{
+    text-decoration-color: #1d83ff;
+    border-color: #1d83ff;
+}
+
+.team-CG{
+    text-decoration-color: #cd00cd;
+    border-color: #cd00cd;
+}
+
+.team-Robo{
+    text-decoration-color: #00dd16;
+    border-color: #00dd16;
+}
